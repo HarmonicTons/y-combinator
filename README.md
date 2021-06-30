@@ -1,6 +1,6 @@
 # y-combinator
 
-## How to make an anonimous recursive function
+## How to make an anonymous recursive function
 
 Start with a simple (named) recursive function:
 
