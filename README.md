@@ -72,7 +72,7 @@ const M = f => n => f(f)(n) // also simply  f => f(f)
 const isEven = M(self => n => n === 0 ? true : !self(self)(n-1))
 ```
 
-Now if `self` could take care of the `self(self)` part, we would have our result.
+Now if `self` could take care of the `self(self)` part when called, we would have our result.
 
 But that is literaly what `M` does. So we can introduce `Y`, similar to `M`:
 
