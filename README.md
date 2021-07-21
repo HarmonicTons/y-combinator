@@ -126,3 +126,5 @@ So for instance the M operator `x => x(x)` becomes `λx.x x` (parenthesis are re
 The Y operator second part `m => a => f(m(m))(a)` is equivalent to `m => f(m(m))` which becomes `λx.f(x x)`.
 
 And so the Y operator `f => M(m => a => f(m(m))(a))` becomes `λf.(λx.x x)(λx.f(x x))`.
+
+We can also define Ω as `Ω = ω ω` whivh is equivalent to `M(M)`. But as `M = f => f(f)` we can only say that `M(M) = M(M)` or `Ω = Ω`. Ω is only equal to itself and nothing else. It is the quintescence of the recursivity, the infinite loop. 
