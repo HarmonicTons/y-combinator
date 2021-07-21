@@ -121,7 +121,7 @@ const Y = f =>
 
 In lambda notation a function that takes x and return t `x => t` is written like this: `λx.t`.
 
-So for instance the M operator `x => x(x)` becomes `λx.x x` (parenthesis are removed when possible).
+So for instance the M operator `x => x(x)` becomes `λx.x x` (parenthesis are removed when possible). In Lambda calculus M is called ω.
 
 The Y operator second part `m => a => f(m(m))(a)` is equivalent to `m => f(m(m))` which becomes `λx.f(x x)`.
 
