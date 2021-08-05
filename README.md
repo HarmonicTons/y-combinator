@@ -143,7 +143,7 @@ const fib = (i) => {
 }
 ```
 
-In labmda calculus it would be: `Y(λf.λa.if(leg(a)(1)(plus(f(pred(a)))(f(pred(pred(a)))))`
+In lambda calculus it would be: `Y( λf.λa. if(leg(a)(1)) (1) (plus (f(pred(a))) (f(pred(pred(a)))) ) )`
 
 Or back in JS:
 
