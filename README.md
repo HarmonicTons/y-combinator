@@ -178,3 +178,11 @@ const fib = Y(almostFib)
 
 fib(n5)(n => n + 1)(0) // 8
 ```
+
+Or, after some black magic reduction: 
+
+```js
+const fib = n => f => n(c => a => b => c(b)(x => a(b(x))))(x => y => x)(x => x)(f)
+
+fib(n5)(n => n + 1)(0) // 8
+```
